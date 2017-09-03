@@ -1,0 +1,22 @@
+{
+    "name": "protected/class",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Class",
+    "homepage": "https://github.com/renatofrc/protected-class",
+    "authors": [
+        {
+            "name": "Renato Franco",
+            "email": "rasfdeveloper@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
